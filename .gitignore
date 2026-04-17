@@ -1,0 +1,32 @@
+# Environments
+venv/
+env/
+.env
+
+# Cache & Temp Files
+__pycache__/
+*.pyc
+.pytest_cache/
+temp/
+
+# Large Vector Stores
+chroma_db/
+.chroma/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore local databases (uncomment if you don't want to upload the .db)
+pharmaceutical_nlp.db
+.sqlite3
+
+# Private Blueprints & Documents
+*.doc
+*.md
+!README.md
+*.pdf
+*.tex
+*.jpg
+debug_*.py
+*.zip
